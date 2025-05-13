@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Diagnóstico externo y propuesta de soluciones',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Análisis del entorno competitivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Análisis del macroentorno',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Análisis del microentorno (microambiente)',
             hash: 't_1_2',
           },
         ],
@@ -36,25 +36,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo:
+          'Evaluación de factores económicos, socioculturales y tecnológicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Económico',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Socioculturales',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Tecnológicos',
             hash: 't_2_3',
           },
         ],
@@ -63,20 +64,39 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Análisis de la situación legal y política',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Propuestas de soluciones basadas en el diagnóstico externo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
+            numero: '4.1',
+            titulo: 'Económicas',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '4.2',
+            titulo: 'Sociopolítico',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Tecnológicas',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Legal y política',
+            hash: 't_4_4',
           },
         ],
       },
@@ -118,26 +138,103 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Porter, M. (1987) De la ventaja competitiva a la estrategia corporativa. ',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://hbr.org/1987/05/from-competitive-advantage-to-corporate-strategy',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Luna González, A. C. (2015). <i>Administración estratégica</i>. Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39421?page=7',
+    },
+    {
+      referencia:
+        'Torres Hernández, Z. (2015). <i>Administración estratégica</i>. Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39403?page=4',
+    },
+    {
+      referencia:
+        'Luna González, A. C. (2015). <i>Administración estratégica</i>. Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39421?page=7',
+    },
+    {
+      referencia:
+        'Prieto Herrera, J. E. (2011). <i>Gestión estratégica organizacional: guía práctica para el diagnóstico empresarial (3a ed.)</i>. Ecoe Ediciones. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/69160?page=133',
+    },
+    {
+      referencia:
+        'Luna González, A. C. (2015). <i>Administración estratégica</i>. Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39421?page=7',
+    },
+    {
+      referencia:
+        'Torres Hernández, Z. (2015). <i>Administración estratégica</i>. Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39403?page=4',
+    },
+    {
+      referencia:
+        'Luna González, A. C. (2015). <i>Administración estratégica</i>. Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39421?page=7',
+    },
+    {
+      referencia:
+        'Blanco González, A. Cruz Suárez, A. & Feito, C. D. C. (2020). <i>Diagnóstico Empresarial. Delta Publicaciones</i>. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/227433?page=16',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Adaptabilidad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Capacidad de una organización para ajustarse a cambios en su entorno, respondiendo de manera eficiente a nuevas condiciones del mercado, regulaciones o avances tecnológicos.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Análisis del entorno',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Proceso mediante el cual una empresa evalúa factores externos como economía, tecnología, sociedad y regulaciones, con el fin de anticipar riesgos y oportunidades que puedan afectar su desempeño.',
+    },
+    {
+      termino: 'Competitividad',
+      significado:
+        'Habilidad de una organización para destacarse en su sector, ofreciendo productos o servicios de mayor valor en comparación con sus competidores y adaptándose a las condiciones del mercado.',
+    },
+    {
+      termino: 'Diagnóstico externo',
+      significado:
+        'Evaluación de elementos ajenos a la empresa, como tendencias económicas, cambios legislativos y avances tecnológicos, que pueden influir en su desarrollo y sostenibilidad.',
+    },
+    {
+      termino: 'Estrategia empresarial',
+      significado:
+        'Conjunto de acciones planificadas para alcanzar objetivos organizacionales, considerando factores internos y externos que afectan la operación de la empresa.',
+    },
+    {
+      termino: 'Factores socioculturales',
+      significado:
+        'Elementos relacionados con los valores, costumbres, hábitos de consumo y comportamientos de una sociedad, los cuales pueden impactar la demanda de productos o servicios.',
+    },
+    {
+      termino: 'Innovación tecnológica',
+      significado:
+        'Implementación de nuevos procesos, herramientas o productos basados en avances científicos y tecnológicos, con el objetivo de mejorar la eficiencia y competitividad de la empresa.',
+    },
+    {
+      termino: 'Marco legal',
+      significado:
+        'Conjunto de normativas y regulaciones que rigen la operación de una empresa dentro de un determinado país o sector, incluyendo leyes laborales, fiscales, comerciales y ambientales.',
+    },
+    {
+      termino: 'Responsabilidad social empresarial',
+      significado:
+        'Prácticas adoptadas por las organizaciones para contribuir al bienestar social, económico y ambiental, generando un impacto positivo en la comunidad y fortaleciendo su reputación.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'Enfoque empresarial que busca equilibrar el crecimiento económico con el respeto por el medio ambiente y el bienestar social, asegurando el uso eficiente de los recursos a largo plazo.',
     },
   ],
 }
